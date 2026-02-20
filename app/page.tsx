@@ -6,7 +6,7 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
             About Me
           </h1>
-          <p className="max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
             I'm a career software engineer with roots in the Pacific Northwest and the mid-Atlantic.
             My biggest motivators are cultivating a strong local community, whether in the fine arts,
             or access to affordable housing and food. A fan of live music, world travel, and cooking among
@@ -69,7 +69,7 @@ export default function Home() {
           </h1>
           <div>
             <p className="max-w-md text-xl text-zinc-600 dark:text-zinc-400">
-              <span className="text-zinc-950 dark:text-zinc-50">TwitchSongRequests</span>{" - "}<span className="text-md font-semibold">Written in Go</span>
+              <span className="text-zinc-950 dark:text-zinc-50">TwitchSongRequests</span>{" - "}<span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
               Backend service that connects Twitch webhook events to update and queue up songs in a user's
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div>
             <p className="max-w-md text-xl text-zinc-600 dark:text-zinc-400">
-              <span className="text-zinc-950 dark:text-zinc-50">Spotify Recapped</span>{" - "}<span className="text-md font-semibold">Written in Python</span>
+              <span className="text-zinc-950 dark:text-zinc-50">Spotify Recapped</span>{" - "}<span className="text-sm font-semibold">Written in Python</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
               Script that reads the listening history data for a user from Spotify and outputs statistics, top songs and artists, 
