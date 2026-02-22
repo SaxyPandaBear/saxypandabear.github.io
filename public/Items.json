@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "imageUrl": "./gallery/food1.jpg",
+            "alt": "Duck breast, potato pavé, parsnip purée, herb oil, ancho aioli in foreground, grilled octopus and grapefruit in background"
+        },
+        {
+            "id": 2,
+            "imageUrl": "./gallery/food2.jpg",
+            "alt": "Short rib ragu and papperdelle, garnished with tarragon, plated atop dinner menu with wine glass in the top left"
+        },
+        {
+            "id": 3,
+            "imageUrl": "./gallery/music1.jpg",
+            "alt": "Playing sax in greyscale, outdoors"
+        },
+        {
+            "id": 4,
+            "imageUrl": "./gallery/food3.jpg",
+            "alt": "Ravioli in sage brown butter sauce, garnished with fresh sage and grated parmesan, plated atop dinner menu with wine glass in the top left"
+        },
+        {
+            "id": 5,
+            "imageUrl": "./gallery/food4.jpg",
+            "alt": "Duck ragu with gnocchi and grated parmesan, side salad of arugula and cherry tomatoes"
+        },
+        {
+            "id": 6,
+            "imageUrl": "./gallery/music2.jpg",
+            "alt": "Playing saxophone into a microphone in lavendar jacket"
+        },
+        {
+            "id": 7,
+            "imageUrl": "./gallery/food5.jpg",
+            "alt": "Lamb chops resting on romanesco sauce and parsnip purée on the left, miso black cod garnished with lightly fried wonton triangles and pea sprouts on the right"
+        },
+        {
+            "id": 8,
+            "imageUrl": "./gallery/food6.jpg",
+            "alt": "Soy and garlic sauted broccolini on the left, deep-fried tofu garnished with pea sprouts and green onion on the right"
+        },
+        {
+            "id": 9,
+            "imageUrl": "./gallery/music3.jpg",
+            "alt": "Playing sax into a microphone in gold and green ginko cardigan, backlit by red overhead lights"
+        },
+        {
+            "id": 10,
+            "imageUrl": "./gallery/food7.jpg",
+            "alt": "Hamachi loin crudo, garnished with pickled pepper slices, burnt lemon slices and sprouts"
+        },
+        {
+            "id": 11,
+            "imageUrl": "./gallery/food8.jpg",
+            "alt": "Lamb chops resting on yogurt sauce with a side of duck fat roasted potatoes, garnished with chopped parsley"
+        },
+        {
+            "id": 12,
+            "imageUrl": "./gallery/music4.png",
+            "alt": "Grainy photo of stage show on raised platform backed with beer kegs. Band is wearing black suits"
+        },
+        {
+            "id": 13,
+            "imageUrl": "./gallery/food9.jpg",
+            "alt": "Pasta dressed in pesto sauce and grated parmesan, and baked lobster tail on top"
+        },
+        {
+            "id": 14,
+            "imageUrl": "./gallery/food10.jpg",
+            "alt": "Pita bread to the left, hummus dressed with olive oil, sumac and pea sprouts on the top right, and baba ganoush with pomegranate seeds on the bottom right"
+        },
+        {
+            "id": 15,
+            "imageUrl": "./gallery/music5.jpg",
+            "alt": "Playing on a grand piano, wearing a lavendar jacket"
+        }
+    ]
+}

@@ -1,21 +1,24 @@
+import BootstrapCarousel from "./components/carousel";
+import Gallery from "./components/gallery";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
+          <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
             About Me
           </h1>
           <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
             I'm a career software engineer with roots in the Pacific Northwest and the mid-Atlantic.
             My biggest motivators are cultivating a strong local community, whether in the fine arts,
-            or access to affordable housing and food. A fan of live music, world travel, and cooking among
-            many things, there are lots of facets to life outside of work. 
+            or access to affordable housing and food. A fan of live music, world travel, and food among
+            other things, there are lots of facets to life outside of work. 
           </p>
           <div />
         </div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
+          <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
             Work Experience
           </h1>
           <div>
@@ -31,12 +34,12 @@ export default function Home() {
                 Contributor, maintainer, and primary code reviewer of open-source AWS CloudWatch agent project, 
                 responsible for global releases targetting Windows, Linux and MacOS, and as a standalone project or Docker image
               </li>
-              <li>Designed, implemented, benchmarked and released{" "}
+              <li>Designed, implemented, benchmarked and released feature and accompanying{" "}
                 <a
                   href="https://aws.amazon.com/blogs/mt/optimize-log-collection-with-amazon-cloudwatch-agent-log-filter-expressions/"
                   className="text-zinc-950 font-semibold underline dark:text-zinc-50"
                 >
-                  feature
+                  blog post
                 </a>{" "}
                 for pattern matching for log filtering in AWS CloudWatch agent to help optimize AWS costs for customers
               </li>
@@ -64,7 +67,7 @@ export default function Home() {
           <div />
         </div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
+          <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
             Personal Projects
           </h1>
           <div>
@@ -88,22 +91,24 @@ export default function Home() {
           <div />
         </div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
+          <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
             Hobbies
           </h1>
-          <ul className="px-8 list-disc max-w-2xl text-lg text-zinc-950 dark:text-zinc-50">
-            <li>
-              Piano and saxophone player in{" "}
-              <a
-                href="https://thebroadstrokesband.com"
-                className="italic font-semibold text-zinc-600 dark:text-zinc-400"
-              >
-                The Broad Strokes
-              </a>{" "}, and plugged in to the Richmond jazz and rnb music scene
-            </li>
-            <li>Avid homecook in multiple local supper clubs, and volunteer cook for free food distribution</li>
-            {/* TODO: add gallery photos? */}
-          </ul>
+          <div>
+            <ul className="px-4 list-disc max-w-lg text-sm text-zinc-950 dark:text-zinc-50">
+              <li>
+                Piano and saxophone player in{" "}
+                <a
+                  href="https://thebroadstrokesband.com"
+                  className="italic font-semibold text-zinc-600 dark:text-zinc-400"
+                >
+                  The Broad Strokes
+                </a>{" "}, and plugged in to the Richmond jazz and rnb music scene
+              </li>
+              <li>Avid homecook in multiple local supper clubs, and volunteer cook for free food distribution</li>
+            </ul>
+          </div>
+          <Gallery />
         </div>
       </main>
     </div>
