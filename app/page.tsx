@@ -1,4 +1,3 @@
-import BootstrapCarousel from "./components/carousel";
 import Gallery from "./components/gallery";
 
 export default function Home() {
