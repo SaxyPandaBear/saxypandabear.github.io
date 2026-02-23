@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Gallery() {
     const images = items;
     return (
-        <div className="grid grid-cols-3 gap-1">
+        <div className="grid grid-cols-4 gap-1">
             {images.map((img) => (
-                <div key={img.id} className="">
+                <div key={img.id}>
                     <Image
-                        src={img.imageUrl!!}
+                        src={img.imageUrl}
                         alt={img.alt}
                         width={2000}
                         height={2000}
