@@ -115,16 +115,16 @@ export default function Home() {
             High School Musical, The Birthday: The Musical
           </h1>
           <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
-            this is a placeholder until I can {" "}
+            Access the screenplay {" "}
             <a
-              href="https://github.com/SaxyPandaBear/saxypandabear.github.io/blob/master/public/Items.json"
+              href="https://github.com/SaxyPandaBear/saxypandabear.github.io/blob/master/public/hsm/HSM_screenplay.pdf"
               rel="noopener noreferrer"
               target="_blank"
               className="italic font-semibold text-zinc-600 dark:text-zinc-400"
             >
-              link 
+            here 
             </a> 
-            {" "}to the pdf
+            .
           </p>
           <div />
         </div>
