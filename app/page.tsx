@@ -12,7 +12,7 @@ export default function Home() {
             I'm a career software engineer with roots in the Pacific Northwest and the mid-Atlantic.
             My biggest motivators are cultivating a strong local community, whether in the fine arts,
             or access to affordable housing and food. A fan of live music, world travel, and food among
-            other things, there are lots of facets to life outside of work. 
+            other things.
           </p>
           <div />
         </div>
@@ -108,6 +108,25 @@ export default function Home() {
             </ul>
           </div>
           <Gallery />
+          <div />
+        </div>
+        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+          <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
+            High School Musical, The Birthday: The Musical
+          </h1>
+          <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
+            this is a placeholder until I can {" "}
+            <a
+              href="https://github.com/SaxyPandaBear/saxypandabear.github.io/blob/master/public/Items.json"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="italic font-semibold text-zinc-600 dark:text-zinc-400"
+            >
+              link 
+            </a> 
+            {" "}to the pdf
+          </p>
+          <div />
         </div>
       </main>
     </div>
