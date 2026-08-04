@@ -74,6 +74,11 @@
             "id": 15,
             "imageUrl": "./gallery/music5.jpg",
             "alt": "Playing on a grand piano, wearing a lavendar jacket"
+        },
+        {
+          "id": 16,
+          "imageUrl": "./gallery/music6.jpeg",
+          "alt": "Playing sax into a microphone, wearing a green and white checkered cardigan"
         }
     ]
 }

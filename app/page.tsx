@@ -110,9 +110,22 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Backend service that connects Twitch webhook events to update and
+              Open-source backend service that connects Twitch webhook events to update and
               queue up songs in a user's Spotify player. Deployed and servicing
-              several partnered Twitch streamers
+              several partnered Twitch streamers, as well as many affiliate streamers
+            </p>
+          </div>
+          <div>
+            <p className="max-w-md text-xl text-zinc-600 dark:text-zinc-400">
+              <span className="text-zinc-950 dark:text-zinc-50">
+                DigimonQL
+              </span>
+              {" - "}
+              <span className="text-sm font-semibold">Written in Go</span>
+            </p>
+            <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
+              Open-source GraphQL API, backed by MongoDB, with a Python scraping pipeline that
+              normalizes inconsistent third-party data into a validated document model
             </p>
           </div>
           <div>
