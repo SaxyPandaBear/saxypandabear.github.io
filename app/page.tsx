@@ -9,7 +9,7 @@ export default function Home() {
             About Me
           </h1>
           <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
-            I`&apos;`m a career software engineer with roots in the Pacific Northwest
+            I&apos;m a career software engineer with roots in the Pacific Northwest
             and the mid-Atlantic. My biggest motivators are cultivating a strong
             local community, whether in the fine arts, or access to affordable
             housing and food. A fan of live music, world travel, and food among
@@ -111,7 +111,7 @@ export default function Home() {
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
               Open-source backend service that connects Twitch webhook events to update and
-              queue up songs in a user`&apos;`s Spotify player. Deployed and servicing
+              queue up songs in a user&apos;s Spotify player. Deployed and servicing
               several partnered Twitch streamers, as well as many affiliate streamers
             </p>
           </div>
