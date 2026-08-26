@@ -21,27 +21,6 @@ export class Song {
     this.part = part;
     this.path = path;
   }
-
-  public static fromPath(s: string): Song | undefined {
-    if (s === undefined) {
-      return undefined
-    }
-
-    // assume in the form /transcriptions/[name] artist/part/filename.pdf
-    const result = SONG_PATTERN.exec(s.replace("%2F", "/")) // I have no idea why this retains an encoded slash
-    if (result == null) {
-      throw Error(`Unable to parse file path ${s}`);
-    }
-
-    const name = result[1];
-    const artist = result[2];
-    const substr = s.substring(s.indexOf(artist + "/"));
-    const tokens = substr.split("/");
-    const part = tokens[0];
-    const filename = tokens[1];
-
-    return new Song(name, artist, part, filename)
-  }
 }
 
 /**
@@ -84,9 +63,9 @@ export function getTranscriptionFiles(): Song[] {
 
           return song
         })
-        .filter((song) => song != null)
+        .filter((song) => song != undefined && song != null)
     })
-    .filter((song) => song != null)
+    .filter((song) => song != undefined && song != null)
 }
 
 /** Strips the .pdf extension for display purposes. */

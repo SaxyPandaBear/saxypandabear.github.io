@@ -20,24 +20,23 @@ type Props = {
 
 export function generateMetadata({ params }: Props): Metadata {
   const filename = decodeURIComponent(params.file);
-  const song = Song.fromPath(filename)
-  return { title: `${toDisplayName(song)} | Transcriptions` };
+  return { title: `${filename} | Transcriptions` };
 }
 
 export default function TranscriptionPage({ params }: Props) {
   const filename = decodeURIComponent(params.file);
-  const song = Song.fromPath(filename)
   const files = getTranscriptionFiles();
 
-  if (song === undefined || !files.includes(song)) {
+  if (!files.map((s) => s.path).includes(filename)) {
     notFound();
   }
 
-  const pdfUrl = `/transcription/${encodeURIComponent(song.path)}`;
+  // const pdfUrl = `/transcription/${encodeURIComponent(song.path)}`;
+  const pdfUrl = `/transcription/${encodeURIComponent(filename)}`;
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>{toDisplayName(song)}</h1>
+      <h1 className={styles.title}>{filename}</h1>
       <PdfViewer fileUrl={pdfUrl} />
     </main>
   );
