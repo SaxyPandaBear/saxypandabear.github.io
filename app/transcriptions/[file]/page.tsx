@@ -29,7 +29,7 @@ export default function TranscriptionPage({ params }: Props) {
   const song = Song.fromPath(filename)
   const files = getTranscriptionFiles();
 
-  if (!files.includes(song)) {
+  if (song === undefined || !files.includes(song)) {
     notFound();
   }
 

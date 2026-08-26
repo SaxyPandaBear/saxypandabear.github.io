@@ -22,7 +22,11 @@ export class Song {
     this.path = path;
   }
 
-  public static fromPath(s: string): Song {
+  public static fromPath(s: string): Song | undefined {
+    if (s === undefined) {
+      return undefined
+    }
+
     // assume in the form /transcriptions/[name] artist/part/filename.pdf
     const result = SONG_PATTERN.exec(s.replace("%2F", "/")) // I have no idea why this retains an encoded slash
     if (result == null) {
@@ -86,7 +90,10 @@ export function getTranscriptionFiles(): Song[] {
 }
 
 /** Strips the .pdf extension for display purposes. */
-export function toDisplayName(song: Song): string {
+export function toDisplayName(song: Song | undefined): string {
+  if (song === undefined) {
+    return ""
+  }
   // respect capitalization for song name and artist name, but force part to be lowercase
   return `${song.name} - ${song.artist} | ${song.part.toLowerCase()}`;
 }
