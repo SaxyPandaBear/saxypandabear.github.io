@@ -33,7 +33,7 @@ export default function TranscriptionPage({ params }: Props) {
     notFound();
   }
 
-  const pdfUrl = `/transcription/${encodeURIComponent(filename)}`;
+  const pdfUrl = `/transcription/${encodeURIComponent(song.path)}`;
 
   return (
     <main className={styles.main}>

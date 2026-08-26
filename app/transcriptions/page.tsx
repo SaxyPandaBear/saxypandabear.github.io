@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 
 export default function TranscriptionsPage() {
   const files = getTranscriptionFiles();
-  console.log(files)
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>Transcriptions</h1>
