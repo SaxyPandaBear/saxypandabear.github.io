@@ -7,7 +7,7 @@ const TRANSCRIPTIONS_DIR = path.join(
   "transcriptions"
 );
 
-const SONG_PATTERN = /\[(.+)\] (.+)(\/|%2F)/;
+const SONG_PATTERN = /\[(.+)\] ([\w| ]+)/;
 
 export class Song {
   public name: string;
@@ -24,7 +24,7 @@ export class Song {
 
   public static fromPath(s: string): Song {
     // assume in the form /transcriptions/[name] artist/part/filename.pdf
-    const result = SONG_PATTERN.exec(s.replace("%2F", "/"))
+    const result = SONG_PATTERN.exec(s.replace("%2F", "/")) // I have no idea why this retains an encoded slash
     if (result == null) {
       throw Error("Unable to parse file path");
     }
