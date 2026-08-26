@@ -24,7 +24,7 @@ export class Song {
 
   public static fromPath(s: string): Song {
     // assume in the form /transcriptions/[name] artist/part/filename.pdf
-    const result = SONG_PATTERN.exec(decodeURIComponent(s))
+    const result = SONG_PATTERN.exec(decodeURIComponent(decodeURIComponent(s)))
     if (result == null) {
       throw Error("Unable to parse file path");
     }
