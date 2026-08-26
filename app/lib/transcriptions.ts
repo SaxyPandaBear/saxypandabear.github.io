@@ -7,7 +7,7 @@ const TRANSCRIPTIONS_DIR = path.join(
   "transcriptions"
 );
 
-const SONG_PATTERN = /^\[(.+)\] (.+)$/;
+const SONG_PATTERN = /\[(.+)\] (.+)(\/|%2F)/;
 
 export class Song {
   public name: string;
@@ -24,7 +24,7 @@ export class Song {
 
   public static fromPath(s: string): Song {
     // assume in the form /transcriptions/[name] artist/part/filename.pdf
-    const result = SONG_PATTERN.exec(s)
+    const result = SONG_PATTERN.exec(s.replace("%2F", "/"))
     if (result == null) {
       throw Error("Unable to parse file path");
     }
