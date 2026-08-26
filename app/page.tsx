@@ -174,14 +174,6 @@ export default function Home() {
             <div id="seated-55fdf2c0" data-artist-id="3499fba3-236b-40e0-9fe2-3bc1cd822101" data-css-version="3"></div>
             <script async src="https://widget.seated.com/app.js"></script>
           </div>
-
-          <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-            <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
-              Random Photos
-            </h1>
-          </div>
-          <Gallery />
-          <div />
         </div>
       </main>
     </div>

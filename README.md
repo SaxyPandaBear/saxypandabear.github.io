@@ -34,3 +34,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Adding transcriptions
+PDFs are viewable under the `/public/transcriptions/` directory. These have to be named appropriately in order to be rendered.
+
+PDFs stored here should be in the form `/public/transcriptions/[song name] artist name/instrument part/filename.pdf`
