@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 // Required for static export (`next export` / GitHub Pages): tells Next.js
 // every valid value of the [file] segment at build time.
 export function generateStaticParams() {
-  return getTranscriptionFiles().map((song) => song.path);
+  return getTranscriptionFiles().map((song) => { return { file: song.path } });
 }
 
 // Any [file] value not returned by generateStaticParams will 404 instead of
