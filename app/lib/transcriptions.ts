@@ -26,7 +26,7 @@ export class Song {
     // assume in the form /transcriptions/[name] artist/part/filename.pdf
     const result = SONG_PATTERN.exec(s.replace("%2F", "/")) // I have no idea why this retains an encoded slash
     if (result == null) {
-      throw Error("Unable to parse file path");
+      throw Error(`Unable to parse file path ${s}`);
     }
 
     const name = result[1];
