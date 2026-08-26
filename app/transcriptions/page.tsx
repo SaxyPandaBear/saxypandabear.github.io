@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function TranscriptionsPage() {
   const files = getTranscriptionFiles();
-
+  console.log(files)
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>Transcriptions</h1>
@@ -21,7 +21,7 @@ export default function TranscriptionsPage() {
           {files.map((file) => (
             <li key={file.path} className={styles.item}>
               <Link
-                href={`/${encodeURIComponent(file.path)}`}
+                href={`/transcriptions/${encodeURIComponent(file.path)}`}
                 className={styles.link}
               >
                 {toDisplayName(file)}
