@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 // Any [file] value not returned by generateStaticParams will 404 instead of
 // trying (and failing) to render on demand, since there's no server at runtime.
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 type Props = {
   params: { file: string };
