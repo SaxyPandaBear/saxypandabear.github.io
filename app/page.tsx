@@ -152,14 +152,7 @@ export default function Home() {
           <div>
             <ul className="px-4 list-disc max-w-lg text-sm text-zinc-950 dark:text-zinc-50">
               <li>
-                Piano and saxophone player in{" "}
-                <a
-                  href="https://thebroadstrokesband.com"
-                  className="italic font-semibold text-zinc-600 dark:text-zinc-400"
-                >
-                  The Broad Strokes
-                </a>{" "}
-                , and plugged in to the Richmond jazz and rnb music scene
+                Piano and saxophone player in and around RVA, plugged in to the Richmond jazz and rnb music scene
               </li>
               <li>
                 Avid homecook in multiple local supper clubs, and volunteer cook
