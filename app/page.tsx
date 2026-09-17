@@ -24,10 +24,22 @@ export default function Home() {
           <div>
             <p className="max-w-lg text-xl text-zinc-600 dark:text-zinc-400">
               <span className="text-zinc-950 dark:text-zinc-50 underline font-semibold">
+                Capital Technology Group
+              </span>{" "}
+              <span className="text-sm">Data Engineer</span>{" "}
+              <span className="italic text-xs">2026 - Present</span>
+            </p>
+            <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
+              <li>Who knows?</li>
+            </ul>
+          </div>
+          <div>
+            <p className="max-w-lg text-xl text-zinc-600 dark:text-zinc-400">
+              <span className="text-zinc-950 dark:text-zinc-50 underline font-semibold">
                 Amazon Web Services
               </span>{" "}
               <span className="text-sm">Senior Software Engineer</span>{" "}
-              <span className="italic text-xs">2020-2025</span>
+              <span className="italic text-xs">2020 - 2025</span>
             </p>
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
@@ -74,7 +86,7 @@ export default function Home() {
                 Capital One
               </span>{" "}
               <span className="text-sm">Senior Software Engineer</span>{" "}
-              <span className="italic text-xs">2018-2020</span>
+              <span className="italic text-xs">2018 - 2020</span>
             </p>
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
