@@ -1,5 +1,3 @@
-import Gallery from "./components/gallery";
-
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -136,8 +134,8 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Open-source GraphQL API, backed by MongoDB, with a Python scraping pipeline that
-              normalizes inconsistent third-party data into a validated document model
+              Open-source GraphQL API, backed by MongoDB, with a Python-based Airflow data pipeline
+              that normalizes inconsistent third-party data into a validated document model
             </p>
           </div>
           <div>
