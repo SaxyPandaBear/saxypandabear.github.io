@@ -89,6 +89,36 @@
           "id": 18,
           "imageUrl": "./gallery/food/food12.jpeg",
           "alt": "Nashville-style hot chicken served on top of butter lettuce and white bread"
+        },
+        {
+          "id": 19,
+          "imageUrl": "./gallery/music/music7.jpeg",
+          "alt": "Striking a pose with piano, sax and guitars in the foreground, color-coded books on bookshelf in the background"
+        },
+        {
+          "id": 20,
+          "imageUrl": "./gallery/music/music8.jpeg",
+          "alt": "Greyscale photo of my jazz trio after a gig"
+        },
+        {
+          "id": 21,
+          "imageUrl": "./gallery/music/music9.jpeg",
+          "alt": "Candid shot of playing piano accompaniment on backyard deck"
+        },
+        {
+          "id": 22,
+          "imageUrl": "./gallery/music/music10.jpeg",
+          "alt": "Playing piano with saxophone in lap, greyscale"
+        },
+        {
+          "id": 23,
+          "imageUrl": "./gallery/music/music11.jpeg",
+          "alt": "Playing piano wearing green checkered cardigan, and a pink rose inside the bell of the saxophone"
+        },
+        {
+          "id": 24,
+          "imageUrl": "./gallery/music/music12.jpeg",
+          "alt": "Playing piano during a jazz gig, with saxophone on stand off to the side"
         }
     ]
 }
