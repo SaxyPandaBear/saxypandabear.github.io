@@ -29,9 +29,9 @@ type Video = {
 
 const VIDEOS: Video[] = [
   {
-    id: "Wr_Pfw4gx1Y",
-    title: "Love T.K.O.",
-    tagline: "Performing with my former band on the Hofheimer Building rooftop",
+    id: "Sm1dWQ1HTSE",
+    title: "It Could Happen to You",
+    tagline: "Jazz trio at the Reveler jazz jam session",
   },
   {
     id: "tUsVB7iQfAk",
@@ -40,9 +40,9 @@ const VIDEOS: Video[] = [
       "A blues take on D'Angelo's \"Brown Sugar\" at the Blues Night jam session, Strangeways Brewery",
   },
   {
-    id: "Sm1dWQ1HTSE",
-    title: "It Could Happen to You",
-    tagline: "Jazz trio at the Reveler jazz jam session",
+    id: "Wr_Pfw4gx1Y",
+    title: "Love T.K.O.",
+    tagline: "Performing with my former band on the Hofheimer Building rooftop",
   },
 ];
 
