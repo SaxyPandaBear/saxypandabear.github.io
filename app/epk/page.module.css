@@ -101,6 +101,12 @@
   background: color-mix(in srgb, var(--foreground) 6%, transparent);
 }
 
+.videoFramePortrait {
+  aspect-ratio: 9 / 16;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
 .videoFrame iframe {
   position: absolute;
   inset: 0;

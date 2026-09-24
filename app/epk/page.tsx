@@ -25,6 +25,7 @@ type Video = {
   id: string;
   title: string;
   tagline: string;
+  orientation?: "landscape" | "portrait";
 };
 
 const VIDEOS: Video[] = [
@@ -32,6 +33,18 @@ const VIDEOS: Video[] = [
     id: "Sm1dWQ1HTSE",
     title: "It Could Happen to You",
     tagline: "Jazz trio at the Reveler jazz jam session",
+  },
+  {
+    id: "PC11bP0JWLc",
+    title: "Just The Two Of Us",
+    tagline: "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
+    orientation: "portrait"
+  },
+  {
+    id: "k0LKlxj1GkA",
+    title: "Gravity",
+    tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
+    orientation: "portrait"
   },
   {
     id: "tUsVB7iQfAk",
@@ -98,7 +111,13 @@ export default function EpkPage() {
         <ul className={styles.videoGrid}>
           {VIDEOS.map((video) => (
             <li key={video.id} className={styles.videoCard}>
-              <div className={styles.videoFrame}>
+              <div
+                className={
+                  video.orientation === "portrait"
+                    ? `${styles.videoFrame} ${styles.videoFramePortrait}`
+                    : styles.videoFrame
+                }
+              >
                 <iframe
                   src={`https://www.youtube-nocookie.com/embed/${video.id}`}
                   title={video.title}
