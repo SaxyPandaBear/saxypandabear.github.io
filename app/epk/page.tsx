@@ -82,6 +82,11 @@ const VIDEOS: Video[] = [
     tagline: "Playing jazz standards at a hotel in Morocco, livestreamed event"
   },
   {
+    id: "D5g_QWJGwqM",
+    title: "Amsterdam Jam Collective session",
+    tagline: "Sitting in on keys to close out the night for a jam session in Amsterdam"
+  },
+  {
     id: "XQDLxzuwoaM",
     title: "In The Wee Small Hours of the Morning",
     tagline: "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery"
