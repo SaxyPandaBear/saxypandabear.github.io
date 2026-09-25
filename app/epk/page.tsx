@@ -128,19 +128,20 @@ export default function EpkPage() {
 
       <section className={styles.section}>
         <p className={styles.bio}>
-          Richmond, VA-based pianist and saxophonist plugged into the local jazz
-          and R&B scene — sitting in at jam sessions across the globe and
-          performing with groups spanning jazz, funk & soul, r&b, and even ska.
-          <br /><br />
+          Richmond, VA-based pianist and saxophonist sitting in at jam
+          sessions around the city and performing with groups spanning
+          jazz, funk, Motown, rock, and even ska. Andrew has played with
+          several local groups, most notably as a guest musician supporting
+          the <em>What&apos;s Our Age Again</em> band. He has performed at some of
+          Richmond&apos;s premier live music spots, such as The Reveler,
+          River City Roll, Get Tight Lounge, and The Camel.
+          <br />
+          <br />
           Andrew takes inspiration from the artists he looked up to over time:
           Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars to name a
           few. Andrew has been playing piano since the age of 4, navigating the
           music world through classical piano, into modern pop, and landing on
-          jazz, soul, and r&b. Andrew started playing saxophone 2 years ago.
-          <br /><br />
-          Andrew has played with several local groups, and has performed at some
-          of Richmond&apos;s premier music spots, such as The Reveler, River
-          City Roll, Get Tight Lounge, and The Camel.
+          jazz, soul, and r&b. He started playing saxophone 2 years ago.
         </p>
       </section>
 
