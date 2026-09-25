@@ -129,7 +129,7 @@ export default function EpkPage() {
       <section className={styles.section}>
         <p className={styles.bio}>
           Richmond, VA-based pianist and saxophonist plugged into the local jazz
-          and R&B scene — sitting in at jam sessions around the city and
+          and R&B scene — sitting in at jam sessions across the globe and
           performing with groups spanning jazz, funk & soul, r&b, and even ska.
           <br /><br />
           Andrew takes inspiration from the artists he looked up to over time:
