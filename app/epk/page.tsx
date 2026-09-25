@@ -134,8 +134,9 @@ export default function EpkPage() {
           <br /><br />
           Andrew takes inspiration from the artists he looked up to over time:
           Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars to name a
-          few. Andrew has been playing piano since the age of 4, and has been
-          playing saxophone seriously for the past 2 years.
+          few. Andrew has been playing piano since the age of 4, navigating the
+          music world through classical piano, into modern pop, and landing on
+          jazz, soul, and r&b. Andrew started playing saxophone 2 years ago.
           <br /><br />
           Andrew has played with several local groups, and has performed at some
           of Richmond&apos;s premier music spots, such as The Reveler, River
