@@ -59,17 +59,17 @@ type Video = {
 };
 
 const VIDEOS: Video[] = [
-  {
-    id: "Sm1dWQ1HTSE",
-    title: "It Could Happen to You",
-    tagline: "Jazz trio at the Reveler jazz jam session",
-  },
-  {
-    id: "OscJLa8_HgI",
-    title: "The Chicken",
-    tagline: "Part of the melody to The Chicken, from my jazz trio gig @ Strangeways Brewery",
-    orientation: "portrait",
-  },
+  // {
+  //   id: "Sm1dWQ1HTSE",
+  //   title: "It Could Happen to You",
+  //   tagline: "Jazz trio at the Reveler jazz jam session",
+  // },
+  // {
+  //   id: "OscJLa8_HgI",
+  //   title: "The Chicken",
+  //   tagline: "Part of the melody to The Chicken, from my jazz trio gig @ Strangeways Brewery",
+  //   orientation: "portrait",
+  // },
   {
     id: "Gpgs5eisQv0",
     title: "My Foolish Heart",
@@ -77,43 +77,45 @@ const VIDEOS: Video[] = [
     orientation: "portrait",
   },
   {
-    id: "ThDpFT37XRM",
-    title: "In a Sentimental Mood",
-    tagline: "Playing jazz standards at a hotel in Morocco, livestreamed event"
+    id: "PC11bP0JWLc",
+    title: "Just The Two Of Us",
+    tagline:
+      "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
+    orientation: "portrait",
   },
   {
-    id: "D5g_QWJGwqM",
-    title: "Amsterdam Jam Collective session",
-    tagline: "Sitting in on keys to close out the night for a jam session in Amsterdam"
+    id: "ThDpFT37XRM",
+    title: "In a Sentimental Mood",
+    tagline: "Playing jazz standards at a hotel in Morocco, livestreamed event",
   },
+  // {
+  //   id: "D5g_QWJGwqM",
+  //   title: "Amsterdam Jam Collective session",
+  //   tagline: "Sitting in on keys to close out the night for a jam session in Amsterdam"
+  // },
   {
     id: "XQDLxzuwoaM",
     title: "In The Wee Small Hours of the Morning",
-    tagline: "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery"
-  },
-  {
-    id: "PC11bP0JWLc",
-    title: "Just The Two Of Us",
-    tagline: "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
-    orientation: "portrait"
-  },
-  {
-    id: "k0LKlxj1GkA",
-    title: "Gravity",
-    tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
-    orientation: "portrait"
-  },
-  {
-    id: "tUsVB7iQfAk",
-    title: "Brown Sugar (blues version)",
     tagline:
-      "A blues take on D'Angelo's \"Brown Sugar\" at the Blues Night jam session, Strangeways Brewery",
+      "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery",
   },
-  {
-    id: "Wr_Pfw4gx1Y",
-    title: "Love T.K.O.",
-    tagline: "Performing with my former band on the Hofheimer Building rooftop",
-  },
+  // {
+  //   id: "k0LKlxj1GkA",
+  //   title: "Gravity",
+  //   tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
+  //   orientation: "portrait"
+  // },
+  // {
+  //   id: "tUsVB7iQfAk",
+  //   title: "Brown Sugar (blues version)",
+  //   tagline:
+  //     "A blues take on D'Angelo's \"Brown Sugar\" at the Blues Night jam session, Strangeways Brewery",
+  // },
+  // {
+  //   id: "Wr_Pfw4gx1Y",
+  //   title: "Love T.K.O.",
+  //   tagline: "Performing with my former band on the Hofheimer Building rooftop",
+  // },
 ];
 
 // Additional sections sourced from /public (bio assets, press docs, etc.)
@@ -126,9 +128,18 @@ export default function EpkPage() {
 
       <section className={styles.section}>
         <p className={styles.bio}>
-          Richmond, VA-based pianist and saxophonist plugged into the local
-          jazz and R&B scene — sitting in at jam sessions around the city and
+          Richmond, VA-based pianist and saxophonist plugged into the local jazz
+          and R&B scene — sitting in at jam sessions around the city and
           performing with groups spanning jazz, funk & soul, r&b, and even ska.
+          <br /><br />
+          Andrew takes inspiration from the artists he looked up to over time:
+          Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars to name a
+          few. Andrew has been playing piano since the age of 4, and has been
+          playing saxophone seriously for the past 2 years.
+          <br /><br />
+          Andrew has played with several local groups, and has performed at some
+          of Richmond&apos;s premier music spots, such as The Reveler, River
+          City Roll, Get Tight Lounge, and The Camel.
         </p>
       </section>
 
