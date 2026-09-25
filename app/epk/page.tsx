@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "EPK | Andrew Huynh",
 };
 
-const BOOKING_EMAIL = "andrew.huynh.4007@gmail.com";
+const BOOKING_EMAIL = "saxypandabear@gmail.com";
 
 const INSTRUMENTS = ["Piano", "Saxophone"];
 const GENRES = ["Jazz", "Funk", "Soul", "Pop", "R&B", "Blues"];
