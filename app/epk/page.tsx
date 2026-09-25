@@ -77,6 +77,16 @@ const VIDEOS: Video[] = [
     orientation: "portrait",
   },
   {
+    id: "ThDpFT37XRM",
+    title: "In a Sentimental Mood",
+    tagline: "Playing jazz standards at a hotel in Morocco, livestreamed event"
+  },
+  {
+    id: "XQDLxzuwoaM",
+    title: "In The Wee Small Hours of the Morning",
+    tagline: "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery"
+  },
+  {
     id: "PC11bP0JWLc",
     title: "Just The Two Of Us",
     tagline: "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
@@ -87,11 +97,6 @@ const VIDEOS: Video[] = [
     title: "Gravity",
     tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
     orientation: "portrait"
-  },
-  {
-    id: "XQDLxzuwoaM",
-    title: "In The Wee Small Hours of the Morning",
-    tagline: "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery"
   },
   {
     id: "tUsVB7iQfAk",
