@@ -124,7 +124,7 @@ const VIDEOS: Video[] = [
 export default function EpkPage() {
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>EPK</h1>
+      <h1 className={styles.title}>Electronic Press Kit (EPK)</h1>
 
       <section className={styles.section}>
         <p className={styles.bio}>
