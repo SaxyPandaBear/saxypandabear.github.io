@@ -68,10 +68,15 @@
   list-style: none;
 }
 
-.photoGrid img {
-  width: 100%;
-  height: auto;
+.photoGrid li {
+  position: relative;
+  aspect-ratio: 3 / 4;
   border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.photoGrid img {
+  object-fit: cover;
 }
 
 .bookingLink {

@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const BOOKING_EMAIL = "andrew.huynh.4007@gmail.com";
 
 const INSTRUMENTS = ["Piano", "Saxophone"];
-const GENRES = ["Jazz", "R&B", "Blues"];
-const FORMATS = ["Solo", "Trio", "Full Band"];
+const GENRES = ["Jazz", "Funk", "Soul", "Pop", "R&B", "Blues"];
+const FORMATS = ["Solo", "Trio", "Combo", "Full Band"];
 
 type PressPhoto = {
   id: number;
@@ -18,8 +18,38 @@ type PressPhoto = {
   alt: string;
 };
 
-// Populate once press photos exist under /public.
-const PRESS_PHOTOS: PressPhoto[] = [];
+const PRESS_PHOTOS: PressPhoto[] = [
+  {
+    id: 1,
+    imageUrl: "/epk/piano1.jpeg",
+    alt: "Andrew playing keyboard, photographed from behind in a moody, shallow-focus shot under pink and green stage lights",
+  },
+  {
+    id: 2,
+    imageUrl: "/epk/piano2.jpeg",
+    alt: "Andrew playing keyboard outdoors at dusk, saxophone resting on its stand beside him",
+  },
+  {
+    id: 3,
+    imageUrl: "/epk/piano3.jpeg",
+    alt: "Andrew playing keyboard on a brick-walled brewery patio, saxophone on a stand nearby",
+  },
+  {
+    id: 4,
+    imageUrl: "/epk/sax1.jpeg",
+    alt: "Andrew playing saxophone on stage under purple and white lights, piano visible beside him",
+  },
+  {
+    id: 5,
+    imageUrl: "/epk/sax2.jpeg",
+    alt: "Andrew playing saxophone on stage, shot from a low angle under red lights",
+  },
+  {
+    id: 6,
+    imageUrl: "/epk/piano4.jpeg",
+    alt: "Andrew playing keyboard in profile, a close-up shallow-focus shot under pink and green stage lights",
+  },
+];
 
 type Video = {
   id: string;
@@ -35,6 +65,18 @@ const VIDEOS: Video[] = [
     tagline: "Jazz trio at the Reveler jazz jam session",
   },
   {
+    id: "OscJLa8_HgI",
+    title: "The Chicken",
+    tagline: "Part of the melody to The Chicken, from my jazz trio gig @ Strangeways Brewery",
+    orientation: "portrait",
+  },
+  {
+    id: "Gpgs5eisQv0",
+    title: "My Foolish Heart",
+    tagline: "Solo piano intro to My Foolish Heart @ Strangeways Brewery",
+    orientation: "portrait",
+  },
+  {
     id: "PC11bP0JWLc",
     title: "Just The Two Of Us",
     tagline: "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
@@ -45,6 +87,11 @@ const VIDEOS: Video[] = [
     title: "Gravity",
     tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
     orientation: "portrait"
+  },
+  {
+    id: "XQDLxzuwoaM",
+    title: "In The Wee Small Hours of the Morning",
+    tagline: "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery"
   },
   {
     id: "tUsVB7iQfAk",
@@ -94,12 +141,7 @@ export default function EpkPage() {
           <ul className={styles.photoGrid}>
             {PRESS_PHOTOS.map((photo) => (
               <li key={photo.id}>
-                <Image
-                  src={photo.imageUrl}
-                  alt={photo.alt}
-                  width={2000}
-                  height={2000}
-                />
+                <Image src={photo.imageUrl} alt={photo.alt} fill />
               </li>
             ))}
           </ul>
