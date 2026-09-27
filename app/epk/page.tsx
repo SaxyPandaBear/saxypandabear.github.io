@@ -158,16 +158,6 @@ export default function EpkPage() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Upcoming Shows</h2>
-        <div
-          id="seated-55fdf2c0"
-          data-artist-id="3499fba3-236b-40e0-9fe2-3bc1cd822101"
-          data-css-version="3"
-        ></div>
-        <script async src="https://widget.seated.com/app.js"></script>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Booking</h2>
         <p className={styles.bio}>
           For bookings, reach out at{" "}
           <a href={`mailto:${BOOKING_EMAIL}`} className={styles.bookingLink}>
@@ -175,6 +165,12 @@ export default function EpkPage() {
           </a>
           .
         </p>
+        <div
+          id="seated-55fdf2c0"
+          data-artist-id="3499fba3-236b-40e0-9fe2-3bc1cd822101"
+          data-css-version="3"
+        ></div>
+        <script async src="https://widget.seated.com/app.js"></script>
       </section>
 
       <section className={styles.section}>
