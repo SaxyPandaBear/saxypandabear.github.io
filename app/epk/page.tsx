@@ -126,14 +126,15 @@ export default function EpkPage() {
           <br />
           Andrew can be found throughout the city performing with several of
           Richmond&apos;s favorite artists. From intimate private events, trio
-          shows, full band shows, and jam sessions his repertoire musically
-          spans jazz, funk, Motown, rock, and even ska. Andrew can often be
-          found at The Reveler, The Camel, Get Tight Lounge, and River City
-          Roll, and has recently even joined RVA favorites
-          <em>What&apos;s Our Age Again</em> on stage, adding his own signature
-          sound to an amazing show. Andrew draws inspiration from artists
-          including: Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars
-          to name a few.
+          shows, full band shows, to jam sessions, his repertoire spans jazz,
+          funk, Motown, rock, and even ska. Andrew can often be found at The
+          Reveler, The Camel, Get Tight Lounge, and River City Roll, and has
+          recently even joined RVA favorites <em>
+            What&apos;s Our Age Again
+          </em>{" "}
+          on stage, adding his own signature sound to an amazing show. Andrew
+          draws inspiration from artists including: Stevie Wonder, Dexter
+          Gordon, Sonny Rollins, and Bruno Mars to name a few.
           <br />
           <br />
           Andrew has been playing piano since the age of 4, navigating the music
