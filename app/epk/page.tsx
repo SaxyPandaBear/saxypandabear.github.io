@@ -45,11 +45,7 @@ function YouTubeIcon() {
   );
 }
 
-const BOOKING_EMAIL = "saxypandabear@gmail.com";
-
-const INSTRUMENTS = ["Piano", "Saxophone"];
-const GENRES = ["Jazz", "Funk", "Soul", "Pop", "R&B", "Blues"];
-const FORMATS = ["Solo", "Trio", "Combo", "Full Band"];
+const BOOKING_EMAIL = "AH.SP.booking@gmail.com";
 
 type PressPhoto = {
   id: number;
@@ -98,67 +94,25 @@ type Video = {
 };
 
 const VIDEOS: Video[] = [
-  // {
-  //   id: "Sm1dWQ1HTSE",
-  //   title: "It Could Happen to You",
-  //   tagline: "Jazz trio at the Reveler jazz jam session",
-  // },
-  // {
-  //   id: "OscJLa8_HgI",
-  //   title: "The Chicken",
-  //   tagline: "Part of the melody to The Chicken, from my jazz trio gig @ Strangeways Brewery",
-  //   orientation: "portrait",
-  // },
+  {
+    id: "ThDpFT37XRM",
+    title: "In a Sentimental Mood",
+    tagline: 'Piano performance of "In A Sentimental Mood" @ Le Bistro Arabe',
+  },
   {
     id: "Gpgs5eisQv0",
     title: "My Foolish Heart",
-    tagline: "Solo piano intro to My Foolish Heart @ Strangeways Brewery",
+    tagline: 'Solo piano intro to "My Foolish Heart" @ Strangeways Brewery',
     orientation: "portrait",
   },
   {
     id: "PC11bP0JWLc",
     title: "Just The Two Of Us",
     tagline:
-      "Sax solo over my former band's cover of Just The Two Of Us, @ Reveler",
+      "Sax solo over The Broad Strokes's cover of Just The Two Of Us, @ Reveler",
     orientation: "portrait",
   },
-  {
-    id: "ThDpFT37XRM",
-    title: "In a Sentimental Mood",
-    tagline: "Playing jazz standards at a hotel in Morocco, livestreamed event",
-  },
-  // {
-  //   id: "D5g_QWJGwqM",
-  //   title: "Amsterdam Jam Collective session",
-  //   tagline: "Sitting in on keys to close out the night for a jam session in Amsterdam"
-  // },
-  {
-    id: "XQDLxzuwoaM",
-    title: "In The Wee Small Hours of the Morning",
-    tagline:
-      "The outro to In The Wee Small Hours of the Morning @ Strangeways Brewery",
-  },
-  // {
-  //   id: "k0LKlxj1GkA",
-  //   title: "Gravity",
-  //   tagline: "Piano intro to my former band's cover of Gravity, @ Reveler",
-  //   orientation: "portrait"
-  // },
-  // {
-  //   id: "tUsVB7iQfAk",
-  //   title: "Brown Sugar (blues version)",
-  //   tagline:
-  //     "A blues take on D'Angelo's \"Brown Sugar\" at the Blues Night jam session, Strangeways Brewery",
-  // },
-  // {
-  //   id: "Wr_Pfw4gx1Y",
-  //   title: "Love T.K.O.",
-  //   tagline: "Performing with my former band on the Hofheimer Building rooftop",
-  // },
 ];
-
-// Additional sections sourced from /public (bio assets, press docs, etc.)
-// can be added here once that content exists.
 
 export default function EpkPage() {
   return (
@@ -167,32 +121,27 @@ export default function EpkPage() {
 
       <section className={styles.section}>
         <p className={styles.bio}>
-          Richmond, VA-based pianist and saxophonist sitting in at jam
-          sessions around the city and performing with groups spanning
-          jazz, funk, Motown, rock, and even ska. Andrew has played with
-          several local groups, most notably as a guest musician supporting
-          the <em>What&apos;s Our Age Again</em> band. He has performed at some of
-          Richmond&apos;s premier live music spots, such as The Reveler,
-          River City Roll, Get Tight Lounge, and The Camel.
+          Richmond, VA-based saxophonist and pianist.
           <br />
           <br />
-          Andrew takes inspiration from the artists he looked up to over time:
-          Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars to name a
-          few. Andrew has been playing piano since the age of 4, navigating the
-          music world through classical piano, into modern pop, and landing on
-          jazz, soul, and r&b. He started playing saxophone 2 years ago.
+          Andrew can be found throughout the city performing with several of
+          Richmond&apos;s favorite artists. From intimate private events, trio
+          shows, full band shows, and jam sessions his repertoire musically
+          spans jazz, funk, Motown, rock, and even ska. Andrew can often be
+          found at The Reveler, The Camel, Get Tight Lounge, and River City
+          Roll, and has recently even joined RVA favorites
+          <em>What&apos;s Our Age Again</em> on stage, adding his own signature
+          sound to an amazing show. Andrew draws inspiration from artists
+          including: Stevie Wonder, Dexter Gordon, Sonny Rollins, and Bruno Mars
+          to name a few.
+          <br />
+          <br />
+          Andrew has been playing piano since the age of 4, navigating the music
+          world through classical piano, into modern pop, and landing on jazz,
+          soul, and r&b. He started playing saxophone in 2024 and is already a
+          regular at various jam sessions around town when he isn&apos;t
+          performing with one of his various projects.
         </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Instrumentation & Genres</h2>
-        <ul className={styles.tagList}>
-          {[...INSTRUMENTS, ...GENRES, ...FORMATS].map((tag) => (
-            <li key={tag} className={styles.tag}>
-              {tag}
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section className={styles.section}>
@@ -252,7 +201,7 @@ export default function EpkPage() {
         <h2 className={styles.sectionTitle}>Videos</h2>
         <ul className={styles.videoGrid}>
           {VIDEOS.map((video) => (
-            <li key={video.id} className={styles.videoCard}>
+            <li key={video.id} className={styles.videoCard} tabIndex={0}>
               <div
                 className={
                   video.orientation === "portrait"

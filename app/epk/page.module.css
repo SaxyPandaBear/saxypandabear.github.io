@@ -120,6 +120,28 @@
 
 .videoCard {
   margin: 0;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--foreground) 12%, transparent);
+  background: color-mix(in srgb, var(--foreground) 3%, transparent);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .videoCard:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--foreground) 30%, transparent);
+    box-shadow: 0 10px 24px color-mix(in srgb, var(--foreground) 18%, transparent);
+  }
+}
+
+.videoCard:focus-within {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--foreground) 30%, transparent);
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--foreground) 18%, transparent);
 }
 
 .videoFrame {
