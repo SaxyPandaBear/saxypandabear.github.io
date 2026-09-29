@@ -7,7 +7,6 @@ import styles from "./NavBar.module.css";
 
 const ROUTES = [
   { href: "/", label: "Home" },
-  { href: "/epk", label: "EPK" },
   { href: "/gallery", label: "Gallery" },
   { href: "/transcriptions", label: "Transcriptions" },
 ];
