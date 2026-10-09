@@ -7,11 +7,11 @@ export default function Home() {
             About Me
           </h1>
           <p className="max-w-xl text-md text-zinc-600 dark:text-zinc-400">
-            I&apos;m a career software engineer with roots in the Pacific Northwest
-            and the mid-Atlantic. My biggest motivators are cultivating a strong
-            local community, whether in the fine arts, or access to affordable
-            housing and food. A fan of live music, world travel, and food among
-            other things.
+            I&apos;m a career software engineer with roots in the Pacific
+            Northwest and the mid-Atlantic. My biggest motivators are
+            cultivating a strong local community, whether in the fine arts, or
+            access to affordable housing and food. A fan of live music, world
+            travel, and food among other things.
           </p>
           <div />
         </div>
@@ -28,7 +28,17 @@ export default function Home() {
               <span className="italic text-xs">2026 - Present</span>
             </p>
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
-              <li>Who knows?</li>
+              <li>
+                Establishing data quality, cataloging, and governance frameworks
+                to prepare enterprise data for AI/ML consumption in a secure
+                federal environment
+              </li>
+              <li>
+                Architecting a modern data foundation for a federal agency’s AI
+                adoption, implementing standardized data models, metadata
+                management, and lineage tracking to ensure model-ready,
+                trustworthy data
+              </li>
             </ul>
           </div>
           <div>
@@ -120,22 +130,22 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Open-source backend service that connects Twitch webhook events to update and
-              queue up songs in a user&apos;s Spotify player. Deployed and servicing
-              several partnered Twitch streamers, as well as many affiliate streamers
+              Open-source backend service that connects Twitch webhook events to
+              update and queue up songs in a user&apos;s Spotify player.
+              Deployed and servicing several partnered Twitch streamers, as well
+              as many affiliate streamers
             </p>
           </div>
           <div>
             <p className="max-w-md text-xl text-zinc-600 dark:text-zinc-400">
-              <span className="text-zinc-950 dark:text-zinc-50">
-                DigimonQL
-              </span>
+              <span className="text-zinc-950 dark:text-zinc-50">DigimonQL</span>
               {" - "}
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Open-source GraphQL API, backed by MongoDB, with a Python-based Airflow data pipeline
-              that normalizes inconsistent third-party data into a validated document model
+              Open-source GraphQL API, backed by MongoDB, with a Python-based
+              Airflow data pipeline that normalizes inconsistent third-party
+              data into a validated document model
             </p>
           </div>
           <div>
@@ -162,7 +172,8 @@ export default function Home() {
           <div>
             <ul className="px-4 list-disc max-w-lg text-sm text-zinc-950 dark:text-zinc-50">
               <li>
-                Piano and saxophone player in and around RVA, plugged in to the Richmond jazz and rnb music scene
+                Piano and saxophone player in and around RVA, plugged in to the
+                Richmond jazz and rnb music scene
               </li>
               <li>
                 Avid homecook in multiple local supper clubs, and volunteer cook
@@ -174,7 +185,11 @@ export default function Home() {
             <h1 className="max-w-xs text-3xl font-semibold tracking-tight uppercase text-black dark:text-zinc-50">
               Upcoming Events
             </h1>
-            <div id="seated-55fdf2c0" data-artist-id="3499fba3-236b-40e0-9fe2-3bc1cd822101" data-css-version="3"></div>
+            <div
+              id="seated-55fdf2c0"
+              data-artist-id="3499fba3-236b-40e0-9fe2-3bc1cd822101"
+              data-css-version="3"
+            ></div>
             <script async src="https://widget.seated.com/app.js"></script>
           </div>
         </div>
