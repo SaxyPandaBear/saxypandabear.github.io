@@ -64,7 +64,7 @@ export default function Home() {
                   className="text-zinc-950 font-semibold underline dark:text-zinc-50"
                 >
                   (with launch blog post)
-                </a>{" "}
+                </a>
                 , cutting customer ingestion cost
               </li>
               <li>
