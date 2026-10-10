@@ -29,15 +29,20 @@ export default function Home() {
             </p>
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
-                Establishing data quality, cataloging, and governance frameworks
-                to prepare enterprise data for AI/ML consumption in a secure
-                federal environment
+                Establishing data quality, cataloging, monitoring, and governance
+                frameworks to prepare enterprise data for AI/ML consumption in a
+                secure federal environment
               </li>
               <li>
                 Architecting a modern data foundation for a federal agency’s AI
                 adoption, implementing standardized data models, metadata
                 management, and lineage tracking to ensure model-ready,
                 trustworthy data
+              </li>
+              <li>
+                Consolidated fragmented ETL orchestration (cron jobs, AWS Step
+                Functions) onto a standardized Apache Airflow platform to
+                support scalable analytics and AI workloads
               </li>
             </ul>
           </div>
