@@ -29,11 +29,6 @@ export default function Home() {
             </p>
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
-                Establishing data quality, cataloging, monitoring, and governance
-                frameworks to prepare enterprise data for AI/ML consumption in a
-                secure federal environment
-              </li>
-              <li>
                 Architecting a modern data foundation for a federal agency’s AI
                 adoption, implementing standardized data models, metadata
                 management, and lineage tracking to ensure model-ready,
@@ -57,21 +52,20 @@ export default function Home() {
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
                 Contributor, maintainer, and primary code reviewer of
-                open-source AWS CloudWatch agent project, responsible for global
-                releases targetting Windows, Linux and MacOS, and as a
-                standalone project or Docker image
+                open-source AWS CloudWatch agent project, written in Go,
+                responsible for global releases targeting Windows, Linux and
+                macOS, and as a standalone project or Docker image
               </li>
               <li>
-                Designed, implemented, benchmarked and released feature and
-                accompanying{" "}
+                Built regex-based log filter expressions for the CloudWatch
+                agent{" "}
                 <a
                   href="https://aws.amazon.com/blogs/mt/optimize-log-collection-with-amazon-cloudwatch-agent-log-filter-expressions/"
                   className="text-zinc-950 font-semibold underline dark:text-zinc-50"
                 >
-                  blog post
+                  (with launch blog post)
                 </a>{" "}
-                for pattern matching for log filtering in AWS CloudWatch agent
-                to help optimize AWS costs for customers
+                , cutting customer ingestion cost
               </li>
               <li>
                 Triaged external customer escalations with hands-on
@@ -79,7 +73,7 @@ export default function Home() {
               </li>
               <li>
                 Prototyped GDPR-compliant redaction for telemetry metadata
-                exfiltrated from airgrapped environments
+                exported from air-gapped environments
               </li>
               <li>
                 Designed, implemented, and released internal telemetry agent
@@ -87,9 +81,10 @@ export default function Home() {
                 optimization analyses
               </li>
               <li>
-                Implemented high-volume, daily ETL workflows in AWS EMR,
-                orchestrated via AWS Step Functions and written as
-                infrastructure-as-code in AWS CDK
+                Built and maintained end-to-end daily pipelines (~2 TB/day on
+                AWS EMR, orchestrated with Step Functions, defined in CDK) and
+                dashboards that every engineering team used to track and
+                maintain the security posture of its hosts
               </li>
             </ul>
           </div>
@@ -104,11 +99,11 @@ export default function Home() {
             <ul className="px-8 list-disc italic text-sm text-zinc-950 dark:text-zinc-50">
               <li>
                 Implemented SSL termination for gRPC and HTTP API endpoints for
-                enterprise data streaming service
+                enterprise data streaming service written in Scala
               </li>
               <li>
-                Designed and implemented cross-region, eventually-consistent PII
-                scanning for sensitive data at rest
+                Designed and implemented cross-region PII scanning for sensitive
+                data at rest
               </li>
               <li>
                 Core code reviewer and maintainer for project with over 70
@@ -135,8 +130,8 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Open-source backend service that connects Twitch webhook events to
-              update and queue up songs in a user&apos;s Spotify player.
+              Open-source Go backend service that connects Twitch webhook events
+              to update and queue up songs in a user&apos;s Spotify player.
               Deployed and servicing several partnered Twitch streamers, as well
               as many affiliate streamers
             </p>
@@ -148,9 +143,9 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Go</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Open-source GraphQL API, backed by MongoDB, with a Python-based
-              Airflow data pipeline that normalizes inconsistent third-party
-              data into a validated document model
+              Open-source GraphQL API written in Go, backed by MongoDB, with a
+              Python-based Airflow data pipeline that normalizes inconsistent
+              third-party data into a validated document model
             </p>
           </div>
           <div>
@@ -162,10 +157,9 @@ export default function Home() {
               <span className="text-sm font-semibold">Written in Python</span>
             </p>
             <p className="max-w-xl text-md italic text-zinc-600 dark:text-zinc-400">
-              Script that reads the listening history data for a user from
-              Spotify and outputs statistics, top songs and artists, in an
-              attempt to reverse-engineer the implementation for the annual
-              Spotify Wrapped
+              Python script that reads the exported listening history data for a
+              user from Spotify and outputs statistics, top songs and artists,
+              approximating the implementation for the annual Spotify Wrapped
             </p>
           </div>
           <div />
